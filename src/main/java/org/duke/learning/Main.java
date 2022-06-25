@@ -2,6 +2,7 @@ package org.duke.learning;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ProducerDemo producerDemo = new ProducerDemo();
+        producerDemo.sendDemoData();
     }
 }
